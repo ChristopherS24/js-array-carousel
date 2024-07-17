@@ -1,0 +1,28 @@
+/*
+RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+GENERAL
+*/
+.container {
+    margin: auto;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img {
+    width: 30%;
+}
+
+img {
+    max-width: 100%;
+}
