@@ -21,8 +21,52 @@ GENERAL
 
 .box-img {
     width: 30%;
+    display: none;
 }
 
 img {
     max-width: 100%;
+}
+
+.viewimg {
+    display: block;
+}
+
+.container {
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-img {
+    width: 20%;
+    position: relative;
+    display: none;
+}
+img {
+    max-width: 100%;
+}
+.viewimg{
+    display: block;
+}
+button {
+    background: none;
+    border: none;
+}
+.fa-solid {
+    opacity: 70%;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.button-right {    
+    position: absolute;
+    right: 3%;
+    top: 50%;
+}
+
+.button-left {    
+    position: absolute;
+    left: 3%;
+    top: 50%;
 }
